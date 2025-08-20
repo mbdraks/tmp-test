@@ -1,0 +1,15 @@
+#!/usr/bin/env ansible-playbook
+---
+- hosts: FAZ01
+
+  tasks:
+    - name: Get system status
+      fortinet.fortianalyzer.faz_fact:
+        access_token: "{{ access_token }}"
+        facts:
+          selector: "sys_status"
+      register: r
+
+    - name: Display status
+      ansible.builtin.debug:
+        var: r

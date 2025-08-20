@@ -1,0 +1,4 @@
+# FortiAnalyzer
+---
+ansible_network_os: fortinet.fortianalyzer.fortianalyzer
+# ansible_facts_modules: setup

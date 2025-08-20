@@ -1,0 +1,7 @@
+faz:
+  hosts:
+    FAZ01:
+security_fabric:
+  children:
+    fmg:
+    faz:

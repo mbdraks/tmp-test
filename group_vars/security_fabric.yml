@@ -1,0 +1,8 @@
+# security_fabric.yml
+---
+ansible_connection: httpapi
+ansible_httpapi_use_ssl: yes
+ansible_httpapi_validate_certs: no
+
+vdom: root
+adom: root

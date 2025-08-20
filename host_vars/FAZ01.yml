@@ -1,0 +1,5 @@
+---
+ansible_host: 10.104.104.122
+ansible_httpapi_port: 443
+
+access_token: 7gxag57ac3wk3b9joqmje5pjb4jga6oz
